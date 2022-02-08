@@ -1,0 +1,19 @@
+sudo yum update
+python --version
+sudo yum install flask
+sudo pip install flask
+sudo pip3 install flask
+python3 --version
+mkdir flask
+cd flask
+mkdir templates
+cd templates
+wget https://raw.githubusercontent.com/EmreYsrc/my-projects/main/python/hands-on/flask-03-04-If-Handling-Routes-and-Get-Post-Methods/flask-04-handling-forms-POST-GET-Methods/flask-04-handling-forms/templates/login.html
+wget https://raw.githubusercontent.com/EmreYsrc/my-projects/main/python/hands-on/flask-03-04-If-Handling-Routes-and-Get-Post-Methods/flask-04-handling-forms-POST-GET-Methods/flask-04-handling-forms/templates/greet.html
+wget https://raw.githubusercontent.com/EmreYsrc/my-projects/main/python/hands-on/flask-03-04-If-Handling-Routes-and-Get-Post-Methods/flask-04-handling-forms-POST-GET-Methods/flask-04-handling-forms/templates/main.html
+wget https://raw.githubusercontent.com/EmreYsrc/my-projects/main/python/hands-on/flask-03-04-If-Handling-Routes-and-Get-Post-Methods/flask-04-handling-forms-POST-GET-Methods/flask-04-handling-forms/templates/secure.html
+
+ls
+cd ..
+sudo wget https://raw.githubusercontent.com/EmreYsrc/my-projects/main/python/hands-on/flask-03-04-If-Handling-Routes-and-Get-Post-Methods/flask-04-handling-forms-POST-GET-Methods/flask-04-handling-forms/app.py
+python3 app.py
