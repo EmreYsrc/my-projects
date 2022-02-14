@@ -343,8 +343,6 @@ Germany,Berlin,Europe
 EOF
 ```
   - Cut only 'Continent' column | Remove header | Sort the output | List distinct values | Save it to 'continent.txt' and display on the screen.
-
-  cat countries.csv | cut -d, -f3 | grep -v "Continent" | sort | uniq | tee continent.txt
 ​
 ```bash
 ********************************
