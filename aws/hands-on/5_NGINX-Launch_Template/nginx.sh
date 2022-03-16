@@ -47,14 +47,14 @@ sudo yum update -y
 2. Install the Nginx Web Server.
 
 
-sudo amazon-linux-extras install nginx1.12
+sudo amazon-linux-extras install nginx1
 
 
 
 3. Start the Nginx Web Server.
 
 
-sudo systemctl start nginx1
+sudo systemctl start nginx
 
 4. Check from browser with public IP/DNS
 
