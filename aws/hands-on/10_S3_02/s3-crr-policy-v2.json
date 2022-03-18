@@ -13,10 +13,10 @@
             ],
             "Effect": "Allow",
             "Resource": [
-                "arn:aws:s3:::source.replica.clarusway(change me)",
-                "arn:aws:s3:::source.replica.clarusway(change me)/*",
-                "arn:aws:s3:::destination.cross.region.replica.clarusway(change me)",
-                "arn:aws:s3:::destination.cross.region.replica.clarusway(change me)/*"
+                "arn:aws:s3:::lifecycleemre",
+                "arn:aws:s3:::lifecycleemre/*",
+                "arn:aws:s3:::replika34",
+                "arn:aws:s3:::replika34/*"
             ]
         },
         {
@@ -28,8 +28,8 @@
             ],
             "Effect": "Allow",
             "Resource": [
-                "arn:aws:s3:::source.replica.clarusway(change me)/*",
-                "arn:aws:s3:::destination.cross.region.replica.clarusway(change me)/*"
+                "arn:aws:s3:::lifecycleemre/*",
+                "arn:aws:s3:::replika34/*"
             ]
         }
     ]
