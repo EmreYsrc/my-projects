@@ -16,7 +16,8 @@ CREATE TABLE `offices` (
   `city` varchar(50) NOT NULL,
   `state` varchar(50) NOT NULL,
   PRIMARY KEY (`office_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) 
+ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 # Insert some data into the table named offices.
 INSERT INTO `offices` VALUES (1,'03 Reinke Trail','Cincinnati','OH');
@@ -76,6 +77,7 @@ SELECT * FROM offices;
 
 # Filter the first_name, last_name, salary, city, state information of employees having salary more than $100000.
 SELECT first_name, last_name, salary, city, state FROM employees INNER JOIN offices ON employees.office_id=offices.office_id WHERE employees.salary > 100000;
-
+#status;
+#show processlist; admin commands
 # Close the mysql terminal.
 EXIT;
