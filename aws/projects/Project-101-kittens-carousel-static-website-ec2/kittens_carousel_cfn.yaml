@@ -20,7 +20,7 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: ami-0a8b4cd432b1c3063
-      KeyName: emre
+      KeyName: windows2022
       InstanceType: t2.micro
       SecurityGroupIds:
         - !Ref WebServerSecurityGroup
