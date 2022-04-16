@@ -1,0 +1,40 @@
+terraform init
+
+terraform plan
+
+terraform apply
+
+terraform validate
+
+terraform fmt
+
+terraform show
+
+terraform console
+
+terraform graph 
+
+(sudo yum install graphviz dan sonra)
+
+terraform graph | dot -Tsvg > graph.svg 
+
+terraform output
+
+terraform output -json
+
+terraform output tf_example_public_ip 
+
+terraform apply -refresh-only (sadece state i güncelliyor)
+ 
+terraform state list
+
+terraform apply -auto-approve
+
+terraform apply -refresh=false 
+(mesela output ekledik tüm yapýnýn stateini refresh etmesin diye)
+
+terraform
+
+terraform
+
+terraform destroy
